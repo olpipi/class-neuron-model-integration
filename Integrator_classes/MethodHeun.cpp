@@ -36,4 +36,5 @@ void MethodHeun::nextStep(double *y, double t)
 
 
 	for (int i = 0; i < size; i++) y[i] = v2[i];
+	y[0] = this->getNoise();
 }

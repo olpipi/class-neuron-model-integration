@@ -16,12 +16,14 @@ public:
 
 	std::function<double(double, double*)> *getFuncArr();
 	int getSize();
+	double getThresholdValue();
 
 protected:
 
 	int size;
 	double sigRange;
 	double sigCoef;
+	double thresholdValue;
 	//funcdef *funcArr;
 	std::function<double(double, double*)> *funcArr;
 };

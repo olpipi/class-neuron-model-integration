@@ -8,6 +8,7 @@ ModelFHN::ModelFHN()
 
 	this->sigCoef  = 0;
 	this->sigRange = 0;
+	this->thresholdValue = 1;
 }
 
 ModelFHN::~ModelFHN()

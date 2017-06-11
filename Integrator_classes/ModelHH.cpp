@@ -8,6 +8,7 @@ ModelHH::ModelHH()
 
 	this->sigCoef = 0;
 	this->sigRange = 0;
+	this->thresholdValue = 20;
 }
 
 ModelHH::~ModelHH()

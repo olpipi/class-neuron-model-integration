@@ -17,8 +17,9 @@ public:
 
 	void setModel(Model *modelA);
 	void setMethod(Method *methodA);
+	void setParams(double time, double step, double freq, double sig, double noise);
 
-	void launchEscapeTime(std::ofstream *output);
+	double launchEscapeTime();
 	void launchSimple(std::ofstream *output);
 	bool isGenerating();
 

@@ -18,3 +18,8 @@ int Model::getSize()
 {
 	return this->size;
 }
+
+double Model::getThresholdValue()
+{
+	return this->thresholdValue;
+}
